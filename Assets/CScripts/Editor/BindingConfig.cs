@@ -76,7 +76,15 @@ public static class XLuaConfig
     }
     [XLua.BlackList]
     public static List<List<string>> BlackList = new List<List<string>> {
-        new List<string>() { "UnityEngine.Input", "IsJoystickPreconfigured", "System.String" }
+        new List<string>() { "UnityEngine.Input", "IsJoystickPreconfigured", "System.String" },
+        new List<string>() { "UnityEngine.Object", "InstantiateAsync" },
+        new List<string>() { "UnityEngine.GameObject", "SetGameObjectsActive" },
+        new List<string>() { "UnityEngine.Transform", "TransformDirections" },
+        new List<string>() { "UnityEngine.Transform", "InverseTransformDirections" },
+        new List<string>() { "UnityEngine.Transform", "TransformVectors" },
+        new List<string>() { "UnityEngine.Transform", "InverseTransformVectors" },
+        new List<string>() { "UnityEngine.Transform", "TransformPoints" },
+        new List<string>() { "UnityEngine.Transform", "InverseTransformPoints" },
     };
     [Puerts.Filter]
     public static bool Filter(MemberInfo mb) {

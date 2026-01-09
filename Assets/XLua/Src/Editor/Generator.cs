@@ -567,6 +567,10 @@ namespace CSObjectWrapEditor
                 if (mb.DeclaringType.ToString() == exclude[0] && mb.Name == exclude[1])
                 {
                     var parameters = mb.GetParameters();
+                    if (exclude.Count == 2)
+                    {
+                        return true;
+                    }
                     if (parameters.Length != exclude.Count - 2)
                     {
                         continue;
@@ -1818,7 +1822,7 @@ namespace CSObjectWrapEditor
         }
 #if !XLUA_GENERAL
         [UnityEditor.Callbacks.PostProcessBuild(1)]
-        public static void CheckGenrate(BuildTarget target, string pathToBuiltProject)
+        public static void CheckGenerate(BuildTarget target, string pathToBuiltProject)
         {
             if (EditorApplication.isCompiling || Application.isPlaying)
             {

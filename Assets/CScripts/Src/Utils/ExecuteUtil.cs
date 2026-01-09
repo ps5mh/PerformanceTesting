@@ -7,7 +7,7 @@ public static class ExecuteUtil
 {
     public static IExecute[] GetExecutes()
     {
-        return (from assembly in AppDomain.CurrentDomain.GetAssemblies()
+        return (from assembly in AppDomain.CurrentDomain.GetAssemblies().Where(p => !p.IsDynamic)
                 from type in assembly.GetExportedTypes()
                 where typeof(IExecute).IsAssignableFrom(type) && type.IsDefined(typeof(TestAttribute), false)
                 orderby (type.GetCustomAttributes(typeof(TestAttribute), false).FirstOrDefault() as TestAttribute).priority descending

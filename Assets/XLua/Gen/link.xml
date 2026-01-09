@@ -1,0 +1,87 @@
+﻿
+
+<linker>
+
+	<assembly fullname="Assembly-CSharp">
+	    <type fullname="Calculator" preserve="all"/>
+		<type fullname="Example01" preserve="all"/>
+		<type fullname="Example02" preserve="all"/>
+		<type fullname="Example10" preserve="all"/>
+		<type fullname="Example11" preserve="all"/>
+		<type fullname="Example12" preserve="all"/>
+		<type fullname="Example13" preserve="all"/>
+		<type fullname="Example20" preserve="all"/>
+		<type fullname="Example21" preserve="all"/>
+		<type fullname="Example22" preserve="all"/>
+		<type fullname="Example23" preserve="all"/>
+		<type fullname="Example30" preserve="all"/>
+		<type fullname="Example31" preserve="all"/>
+		<type fullname="Example32" preserve="all"/>
+		<type fullname="Example33" preserve="all"/>
+		<type fullname="Example34" preserve="all"/>
+		<type fullname="Example35" preserve="all"/>
+		<type fullname="Example91" preserve="all"/>
+		<type fullname="Example92" preserve="all"/>
+		<type fullname="CalculatorExtension" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="UnityEngine.CoreModule">
+	    <type fullname="UnityEngine.Application" preserve="all"/>
+		<type fullname="UnityEngine.Debug" preserve="all"/>
+		<type fullname="UnityEngine.Vector3" preserve="all"/>
+		<type fullname="UnityEngine.Quaternion" preserve="all"/>
+		<type fullname="UnityEngine.Bounds" preserve="all"/>
+		<type fullname="UnityEngine.Time" preserve="all"/>
+		<type fullname="UnityEngine.Transform" preserve="all"/>
+		<type fullname="UnityEngine.Component" preserve="all"/>
+		<type fullname="UnityEngine.GameObject" preserve="all"/>
+		<type fullname="UnityEngine.Object" preserve="all"/>
+		<type fullname="UnityEngine.Renderer" preserve="all"/>
+		<type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all"/>
+		<type fullname="UnityEngine.Random" preserve="all"/>
+		<type fullname="UnityEngine.Behaviour" preserve="all"/>
+		<type fullname="UnityEngine.Events.UnityEvent" preserve="all"/>
+		<type fullname="UnityEngine.Events.UnityEvent`1[System.Boolean]" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="mscorlib">
+	    <type fullname="System.Object" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="UnityEngine.ParticleSystemModule">
+	    <type fullname="UnityEngine.ParticleSystem" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="UnityEngine.UIModule">
+	    <type fullname="UnityEngine.Canvas" preserve="all"/>
+		<type fullname="UnityEngine.RenderMode" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="UnityEngine.InputLegacyModule">
+	    <type fullname="UnityEngine.Input" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="UnityEngine.UnityWebRequestModule">
+	    <type fullname="UnityEngine.Networking.UnityWebRequest" preserve="all"/>
+		<type fullname="UnityEngine.Networking.DownloadHandler" preserve="all"/>
+		
+	</assembly>
+
+	<assembly fullname="UnityEngine.UI">
+	    <type fullname="UnityEngine.EventSystems.UIBehaviour" preserve="all"/>
+		<type fullname="UnityEngine.UI.Selectable" preserve="all"/>
+		<type fullname="UnityEngine.UI.Button" preserve="all"/>
+		<type fullname="UnityEngine.UI.Button+ButtonClickedEvent" preserve="all"/>
+		<type fullname="UnityEngine.UI.InputField" preserve="all"/>
+		<type fullname="UnityEngine.UI.Toggle" preserve="all"/>
+		<type fullname="UnityEngine.UI.Toggle+ToggleEvent" preserve="all"/>
+		
+	</assembly>
+
+</linker>
